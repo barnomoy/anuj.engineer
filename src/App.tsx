@@ -10,7 +10,7 @@ import {
   Building,
   CalendarDays,
   ChevronRight,
-  Download,
+  // Download,
   ExternalLink,
   GraduationCap,
   Languages,
