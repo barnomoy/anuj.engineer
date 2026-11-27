@@ -70,16 +70,16 @@ function App() {
     setMenuOpen(false)
   }
 
-  const submitForm = (event: FormEvent<HTMLFormElement>) => {
-    event.preventDefault()
-    const form = event.currentTarget
-    const data = new FormData(form)
-    const subject = encodeURIComponent(String(data.get('subject') || 'Portfolio enquiry'))
-    const body = encodeURIComponent(
-      `Name: ${data.get('name')}\nEmail: ${data.get('email')}\n\n${data.get('message')}`,
-    )
-    window.location.href = `mailto:anujkumardey.cuet@gmail.com?subject=${subject}&body=${body}`
-  }
+  // const submitForm = (event: FormEvent<HTMLFormElement>) => {
+  //   event.preventDefault()
+  //   const form = event.currentTarget
+  //   const data = new FormData(form)
+  //   const subject = encodeURIComponent(String(data.get('subject') || 'Portfolio enquiry'))
+  //   const body = encodeURIComponent(
+  //     `Name: ${data.get('name')}\nEmail: ${data.get('email')}\n\n${data.get('message')}`,
+  //   )
+  //   window.location.href = `mailto:anujkumardey.cuet@gmail.com?subject=${subject}&body=${body}`
+  // }
 
   return (
     <>
@@ -194,7 +194,7 @@ function App() {
               {projects.map((project, index) => (
                 <motion.article {...reveal} className={index === 0 ? 'project-card featured' : 'project-card'} key={project.title}>
                   <div className="project-image">
-                    {/* <img src={project.image} alt="Illustrative civil engineering and infrastructure" loading="lazy" /> */}
+                    <img src={project.image} alt="Illustrative civil engineering and infrastructure" loading="lazy" />
                     <span className="project-code">{project.code}</span>
                     <span className="project-type">{project.type}</span>
                   </div>
