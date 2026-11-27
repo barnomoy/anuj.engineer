@@ -322,8 +322,10 @@ function App() {
               <SectionHeading eyebrow="10 / Awards" title="Academic & personal recognition." />
               {[
                 ['2011 — 2015', 'University Scholarship', 'Good academic records'],
-                ['2010', 'Dutch-Bangla Scholarship', 'GPA 5.00 in HSC'],
-                ['2008', 'Dutch-Bangla Scholarship', 'GPA 5.00 in SSC'],
+                //, 'GPA 5.00 in HSC'
+                ['2010', 'Dutch-Bangla Scholarship'],
+                //, 'GPA 5.00 in SSC'
+                ['2008', 'Dutch-Bangla Scholarship'],
                 ['2023', 'Best Footballer Award', 'Shikerpur, Jhenaidah'],
               ].map(([year, title, detail]) => (
                 <div className="award-row" key={title}><Award size={20} /><div><span>{year}</span><h3>{title}</h3><p>{detail}</p></div></div>
