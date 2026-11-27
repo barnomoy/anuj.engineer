@@ -343,15 +343,7 @@ function App() {
               </div>
             </div>
             <div className="contact-grid">
-              <form className="contact-form" onSubmit={submitForm}>
-                <div className="form-row">
-                  <label>Name<input name="name" required placeholder="Your name" /></label>
-                  <label>Email<input name="email" type="email" required placeholder="Your email" /></label>
-                </div>
-                <label>Subject<input name="subject" required placeholder="What would you like to discuss?" /></label>
-                <label>Message<textarea name="message" required rows={5} placeholder="Write your message" /></label>
-                <button className="btn btn-gold" type="submit">Send Message <ChevronRight size={18} /></button>
-              </form>
+              
               <div className="language-card">
                 <Languages size={28} />
                 <span>Languages</span>
