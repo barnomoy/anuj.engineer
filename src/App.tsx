@@ -352,7 +352,7 @@ function App() {
                 <span>Languages</span>
                 <h3>English</h3>
                 <p>Proficient in reading, writing, listening, and speaking.</p>
-                <div className="placeholder-social"><ExternalLink size={18} /><span>LinkedIn profile link available upon request</span></div>
+                {/* <div className="placeholder-social"><ExternalLink size={18} /><span>LinkedIn profile link available upon request</span></div> */}
               </div>
             </div>
           </div>
