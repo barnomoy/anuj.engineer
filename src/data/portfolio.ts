@@ -68,18 +68,18 @@ export const experiences = [
       'Soil-cement stabilization works.',
     ],
   },
-  {
-    period: '2016 — 2018',
-    organization: 'Orient Trading & Builders Limited',
-    role: 'Pavement & Geotechnical Engineer (Intern)',
-    detail: 'Pavement construction and soil investigation',
-    employer: 'Field and laboratory engineering',
-    responsibilities: [
-      'Quality assurance of civil engineering works.',
-      'Geotechnical and transportation-related problem solving.',
-      'Laboratory testing of construction materials.',
-    ],
-  },
+  // {
+  //   period: '2016 — 2018',
+  //   organization: 'Orient Trading & Builders Limited',
+  //   role: 'Pavement & Geotechnical Engineer (Intern)',
+  //   detail: 'Pavement construction and soil investigation',
+  //   employer: 'Field and laboratory engineering',
+  //   responsibilities: [
+  //     'Quality assurance of civil engineering works.',
+  //     'Geotechnical and transportation-related problem solving.',
+  //     'Laboratory testing of construction materials.',
+  //   ],
+  // },
 ]
 
 export const projects = [

@@ -246,7 +246,7 @@ function App() {
                   <div className="education-icon">{index === 0 ? <GraduationCap /> : <BookOpen />}</div>
                   <h3>{item.degree}</h3>
                   <p className="institution">{item.institution}</p>
-                  <strong>{item.score}</strong>
+                  {/* <strong>{item.score}</strong> */}
                   <span>{item.detail}</span>
                   {item.extra && <small>{item.extra}</small>}
                 </motion.article>
@@ -267,7 +267,7 @@ function App() {
                 ['2020', 'Bangladesh Public Administration Training Centre', 'Foundation Training for BCS Officers'],
                 ['2020', 'Bangladesh Public Administration Training Centre', 'Workshop on Annual Performance Agreement (APA)'],
                 ['2020', 'Bangladesh Academy for Rural Development', 'Attachment Program on Poverty Reduction & Rural Development'],
-                ['20219*', 'Engineering Staff College, Bangladesh', 'Technical Foundation Training for RHD Assistant Engineers'],
+                ['2021', 'Engineering Staff College, Bangladesh', 'Technical Foundation Training for RHD Assistant Engineers'],
                 ['2019', 'Kanchpur, Meghna & Gumti 2nd Bridges Project', 'Bridge construction and existing bridge rehabilitation'],
                 ['2019', 'Engineering Staff College, Bangladesh', 'Training on Road Safety'],
               ].map(([year, place, name]) => (
