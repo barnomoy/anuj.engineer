@@ -86,7 +86,7 @@ function App() {
       <header className="navbar">
         <button className="brand" onClick={() => scrollTo('home')} aria-label="Go to home">
           <span className="brand-mark">AK</span>
-          <span><strong>Anuj Kumar Dey</strong><small>Civil Engineer</small></span>
+          <span><strong>Anuj Kumar Dey</strong><small>Executive Engineer, Civil</small></span>
         </button>
         <nav className={menuOpen ? 'nav-links open' : 'nav-links'} aria-label="Primary navigation">
           {navItems.map(([id, label]) => (
@@ -110,12 +110,12 @@ function App() {
           <div className="hero-overlay" />
           <motion.div className="hero-content" initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
             <div className="hero-status"><span /> Engineering Infrastructure & Development</div>
-            <p className="designation">Civil Engineer <b>|</b> Transportation & Highway Engineering Specialist</p>
+            <p className="designation">Executive Engineer, Civil <b>|</b> Transportation & Highway Engineering Specialist</p>
             <h1>Engineering sustainable roads and <em>building better connections.</em></h1>
             <p className="hero-description">Experienced Civil Engineer working in transportation infrastructure, highway development, pavement engineering, bridge rehabilitation, and project management.</p>
             <div className="hero-actions">
               <button className="btn btn-gold" onClick={() => scrollTo('projects')}>Explore My Projects <ChevronRight size={18} /></button>
-              <a className="btn btn-outline" href="/Anuj-Kumar-Dey-CV.pdf" download><Download size={18} /> Download My CV</a>
+              {/* <a className="btn btn-outline" href="/Anuj-Kumar-Dey-CV.pdf" download><Download size={18} /> Download My CV</a> */}
             </div>
           </motion.div>
           <motion.div className="hero-profile" initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.8, delay: 0.15 }}>

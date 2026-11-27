@@ -45,7 +45,7 @@ export const experiences = [
   {
     period: '2019 — Present',
     organization: 'Roads & Highways Department (RHD)',
-    role: 'Civil Engineer',
+    role: 'Executive Engineer, Civil',
     detail: 'Bangladesh Civil Service (BCS), Roads & Highways Cadre',
     employer: 'Ministry of Road Transport & Bridges',
     responsibilities: [
