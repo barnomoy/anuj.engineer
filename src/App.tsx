@@ -194,7 +194,7 @@ function App() {
               {projects.map((project, index) => (
                 <motion.article {...reveal} className={index === 0 ? 'project-card featured' : 'project-card'} key={project.title}>
                   <div className="project-image">
-                    <img src={project.image} alt="Illustrative civil engineering and infrastructure" loading="lazy" />
+                    {/* <img src={project.image} alt="Illustrative civil engineering and infrastructure" loading="lazy" /> */}
                     <span className="project-code">{project.code}</span>
                     <span className="project-type">{project.type}</span>
                   </div>
@@ -344,6 +344,7 @@ function App() {
             </div>
             <div className="contact-grid">
               
+
               <div className="language-card">
                 <Languages size={28} />
                 <span>Languages</span>
