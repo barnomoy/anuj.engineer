@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import type { FormEvent } from 'react'
+// import type { FormEvent } from 'react'
 import { motion } from 'framer-motion'
 import {
   ArrowDown,
